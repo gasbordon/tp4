@@ -1,0 +1,150 @@
+h1{background:#0D078D;
+color: #FFFFFF;text-transform: uppercase; font: "arial";
+text-align: center;
+padding: 10PX
+
+
+}
+
+body{
+background: url("../img/fondo.jpg");
+
+background-size: 100%;
+
+background-repeat: no-repeat;
+
+background-position: center center;
+
+background-attachment: fixed;
+
+position: relative;
+
+padding-bottom: 2em;
+}
+
+h3{background: ; color: #00035B; font-size: xx-large;}
+
+h4{color: #00035B ; font-size: x-large;
+text-decoration: underline;
+}
+
+li{font-size: large;}
+
+header{ background: url("../img/pastelera.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+  width: 100%;
+    margin: 1%auto;
+    border: 5px solid #FFFFFF;
+float: left;
+overflow: auto;
+box-sizing: border-box;
+opacity: 0,5;
+
+}
+
+section{background-color:yellow;
+  width: 48%;
+  float: left;
+  margin: 1%;
+  padding: 10px;
+  border: 5px solid #FFFFFF;
+  box-sizing: border-box;
+  overflow: auto;
+  height: 300px;
+}
+
+aside{background-color: GREEN;
+  width: 48%;
+  float: left;
+  margin: 1%;
+  padding: 10px;
+  border: 5px solid #FFFFFF;
+  box-sizing: border-box;
+  overflow: auto;
+  height: 300px;
+}
+
+footer{
+  clear: both;
+  margin: 1%;
+
+
+}
+
+
+
+
+.menu{
+  list-style: none;
+  padding: 0%;
+  background: #FFFFFF;
+width: auto;
+  margin: auto;
+
+  }
+
+  .menu li a{
+    text-decoration: none;
+      flex-direction: row;
+    color: red;
+    padding: 20px;
+    display: block;
+    display: inline-block;
+    text-align: center;
+    overflow: inherit;
+
+
+
+  }
+
+  .menu li{
+    display: inline-block;
+    text-align: center;
+
+  }
+
+  .menu li:hover{
+    background: #F9E79F;
+  }
+
+.container-boton{
+  background-color: #0EB606;
+
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 20px;
+  transition: ease 0.3s;
+
+}
+
+.container-boton:hover{
+
+  transition: 0.3s;
+  width: 10%;
+
+}
+
+.boton{
+  width: 80px;
+  transition: ease 1s;
+}
+
+
+
+
+span:hover{
+  color: red;
+  background-color: white;
+}
+
+.boton:hover{
+  width: 10%
+}
+
+.redes:hover{
+  width: 10%;
+}
